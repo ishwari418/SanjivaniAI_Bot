@@ -1,0 +1,19 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.db
+backend/qdrant_data/
+backend/.env
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# Documents (uploaded PDFs — keep the folder, not the files)
+documents/*
+!documents/.gitkeep
+
+# OS
+.DS_Store
